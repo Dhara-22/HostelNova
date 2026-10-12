@@ -1,0 +1,37 @@
+{
+  "students": [
+    {"id":"STU-2401","name":"Aarav Shah","roll":"24BCE301","email":"aarav.shah@college.edu","phone":"9876543210","course":"B.Tech CSE","year":"3rd Year","room":"A-204","status":"Active","joined":"2026-07-10"},
+    {"id":"STU-2402","name":"Mira Desai","roll":"24BCE302","email":"mira.desai@college.edu","phone":"9876543211","course":"B.Tech CSE","year":"3rd Year","room":"B-108","status":"Active","joined":"2026-07-12"},
+    {"id":"STU-2403","name":"Rohan Mehta","roll":"24BCE303","email":"rohan.mehta@college.edu","phone":"9876543212","course":"B.Tech IT","year":"2nd Year","room":"A-305","status":"Active","joined":"2026-07-14"},
+    {"id":"STU-2404","name":"Anaya Patel","roll":"24BCE304","email":"anaya.patel@college.edu","phone":"9876543213","course":"B.Tech CSE","year":"1st Year","room":"—","status":"Pending","joined":"2026-08-01"}
+  ],
+  "rooms": [
+    {"id":"A-204","block":"A Block","type":"Twin Sharing","capacity":2,"occupied":2,"rent":65000,"status":"Full"},
+    {"id":"B-108","block":"B Block","type":"Single","capacity":1,"occupied":1,"rent":82000,"status":"Full"},
+    {"id":"A-305","block":"A Block","type":"Twin Sharing","capacity":2,"occupied":1,"rent":65000,"status":"Available"},
+    {"id":"C-102","block":"C Block","type":"Triple Sharing","capacity":3,"occupied":1,"rent":48000,"status":"Available"},
+    {"id":"B-212","block":"B Block","type":"Twin Sharing","capacity":2,"occupied":0,"rent":65000,"status":"Available"},
+    {"id":"C-208","block":"C Block","type":"Single","capacity":1,"occupied":0,"rent":82000,"status":"Available"}
+  ],
+  "complaints": [
+    {"id":"CMP-101","title":"Bathroom tap leakage","category":"Plumbing","room":"A-204","priority":"High","status":"In Progress","student":"Aarav Shah","created":"2026-10-10"},
+    {"id":"CMP-102","title":"Wi-Fi connectivity issue","category":"Internet","room":"B-108","priority":"Medium","status":"Open","student":"Mira Desai","created":"2026-10-11"},
+    {"id":"CMP-103","title":"Study room light not working","category":"Electrical","room":"A-305","priority":"Low","status":"Resolved","student":"Rohan Mehta","created":"2026-10-08"}
+  ],
+  "payments": [
+    {"id":"PAY-501","student":"Aarav Shah","roll":"24BCE301","amount":32500,"due":"2026-10-20","status":"Paid"},
+    {"id":"PAY-502","student":"Mira Desai","roll":"24BCE302","amount":41000,"due":"2026-10-20","status":"Pending"},
+    {"id":"PAY-503","student":"Rohan Mehta","roll":"24BCE303","amount":32500,"due":"2026-10-20","status":"Paid"},
+    {"id":"PAY-504","student":"Anaya Patel","roll":"24BCE304","amount":24000,"due":"2026-10-20","status":"Overdue"}
+  ],
+  "notices": [
+    {"id":"NT-01","title":"Hostel floor meeting","body":"Floor representatives meet in the common room at 6:30 PM on Friday.","date":"2026-10-15","audience":"All residents","pinned":true},
+    {"id":"NT-02","title":"Water tank maintenance","body":"Water supply may be interrupted between 11 AM and 1 PM on Wednesday.","date":"2026-10-14","audience":"All residents","pinned":false},
+    {"id":"NT-03","title":"Fee payment reminder","body":"Please clear outstanding hostel fees before the due date.","date":"2026-10-20","audience":"Students","pinned":false}
+  ],
+  "tasks": [
+    {"id":1,"text":"Review new room applications","done":false},
+    {"id":2,"text":"Follow up on plumbing complaint","done":true},
+    {"id":3,"text":"Publish weekly hostel notice","done":false}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "hostelnova-hostel-management",
+  "version": "1.0.0",
+  "description": "Hostel management system + Full Stack Development Practical Lab 1-10",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "bcryptjs": "^2.4.3",
+    "mysql2": "^3.14.1",
+    "mongodb": "^6.16.0",
+    "vue": "^3.5.22"
+  }
+}
